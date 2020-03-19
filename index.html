@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+
+    <!-- for bootstrap
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+    <!-- Linking index css -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Welcome Page - Coral BlockChain</title>
+
+  </head>
+  <body>
+    
+    <div class="nav-div">
+        <div class="logo">
+            <img src="iitr.png" height="60px">
+        </div>
+        <div class="logo">
+            <img src="coral.png" id="right-img" height="59px">
+        </div>    
+    </div>
+
+    <div class="main-div">
+        <h1>WELCOME!</h1> 
+        <div class="data">
+            <h3>
+                System Date: <span id="date"></span>
+            </h3>
+            <h3>
+                System Time: <span id="time"></span>
+            </h3>
+            <h3>
+                System Memory: <span id="memory"></span>
+            </h3>
+        </div>
+    </div>
+    
+
+    <script>
+        var d = new Date();
+        var n = d.getTime();
+        document.getElementById("date").innerHTML = d;
+        document.getElementById("time").innerHTML = n;
+    </script>
+        
+  </body>
+</html>

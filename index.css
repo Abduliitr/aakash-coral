@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin:0;
+    background-image: url("bg.jpg");
+}
+
+#para{
+    text-align: center;
+}
+
+.nav-div{
+    /* background-color: rgb(158, 154, 206); */
+    opacity: .7;
+    background-image: linear-gradient(to bottom, #fbfdff,#102d55);
+}
+
+.nav-div .logo{
+    display: inline;
+}
+
+.nav-div .logo img{
+    padding: 20px;
+}
+
+
+.nav-div .logo #right-img{
+    float: right;
+}
+
+.main-div{
+    color: azure;
+    height: 70vh;
+}
+
+.main-div h1{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 2.5rem;
+}
+
+.main-div .data{
+    text-align: center;
+    display: float;
+}
+
+.main-div .data #date{
+    /* float: right; */
+    text-decoration: none;
+    font-weight: 80;
+} 
